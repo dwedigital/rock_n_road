@@ -37,7 +37,7 @@ def get_interval_data(html):
 
 
 def send_email(data):
-    postmark = PostmarkClient(server_token="d99f61fd-5670-4571-8161-87cfab849886")
+    postmark = PostmarkClient(server_token="c010c93d-883b-49f4-9826-754b17d64844")
     postmark.emails.send(
         From="dave@dwedigital.com",
         To="dave@dwedigital.com",
